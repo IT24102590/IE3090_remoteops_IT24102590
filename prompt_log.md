@@ -1,6 +1,6 @@
 "Compare thread-per-client, fork-per-client and select/poll for a TCP server in C. Give the pros and cons of each, and say which suits a project that needs five simultaneous clients."
 "I must implement a fixed line-based text protocol over TCP in C, with AUTH, SYSINFO, LISTPROC, EXEC, PUT, GET, MONITOR START/STOP and QUIT. Don't write the code. Help me plan the program: which functions and modules I need, what state each client session should hold, and what order to build and test each command. Point out any gaps or risks in my plan, and ask me questions before suggesting changes."
-(Short) "Show me how to derive a port, session ID and auth token from a registration number like [IT00000000], and give me a few test values so I can check my own calculations are correct."
+ "Show me how to derive a port, session ID and auth token from a registration number like [IT00000000], and give me a few test values so I can check my own calculations are correct."
 
 Core socket implementation
 
